@@ -1,0 +1,41 @@
+// custom navbar variables
+$navbar-background-color: rgba(48, 65, 93, 0.75);
+$navbar-height: 4.5rem;
+$navbar-item-color: #031424;
+$navbar-item-hover-background-color: none;
+$navbar-item-hover-color: #031424;
+
+@import "~bulma/bulma";
+
+html {
+  overflow-y: auto;
+}
+
+body {
+  background: url("./main_bg.jpg") no-repeat fixed center;
+  min-height: 100vh;
+}
+
+.title,
+.box {
+  color: #30415d;
+}
+
+.date__container {
+  margin: 4rem 7rem 0 7rem;
+}
+
+.columns.header__container {
+  border-bottom: 2px solid #cf6766;
+  margin-bottom: 2rem;
+}
+
+.title.header__title {
+  color: #cf6766;
+}
+
+.is-vertical-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
